@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.checkbox-input[type=radio]:checked ~ div {
+    border: 2px solid #171717;
+    transition: 0s;
+}
